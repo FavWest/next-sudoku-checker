@@ -46,4 +46,7 @@ expect(correctSudoku.checkRows()).toEqual(true);
   test ('should return false if any row is missing a number between 1-9', () => {
     expect(badSudoku.checkRows()).toEqual(false);
   });
+  test ('should return true if all the columns contain numbers 1-9', () => {
+    expect(correctSudoku.checkColumn()).toEqual(true);
+  });
 });

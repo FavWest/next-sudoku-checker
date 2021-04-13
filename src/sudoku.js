@@ -12,3 +12,6 @@ Sudoku.prototype.checkRows= function (){
   }
   return true;
 }
+Sudoku.prototype.checkColumn= function() {
+  for(let )
+}
