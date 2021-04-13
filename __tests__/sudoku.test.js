@@ -26,4 +26,8 @@ describe('Sudoku', () => {
     [1, 5, 4, 7, 9, 6, 8, 2, 3],
     [2, 3, 9, 8, 4, 1, 5, 6, 7]);
   });
+
+  test ('should return true if each row contains numbers 1-9 without repeats', () => {
+expect(correctSudoku.checkRows()).toEqual(true);
+  });
 });
